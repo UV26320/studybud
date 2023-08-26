@@ -410,6 +410,8 @@ a {
 
 .layout--3 > .container > div:last-child {
   flex-basis: 25%;
+  margin-bottom: 10px;
+
 }
 
 .layout--2 > .container > div:first-child {
@@ -1164,8 +1166,87 @@ a {
   font-weight: 1.4rem;
 }
 
-footer p {
-  display: flex;
-  justify-content: center;
 
+.footer {
+  padding: 10px;
+  background-color: var(--color-dark);
+}
+
+center {
+  display: block;
+  text-align: -webkit-center;
+}
+
+.social-media {
+  font-size: 2.0rem;
+}
+
+.social-media p {
+  color: #ffffff;
+  font-weight: 1000;
+  letter-spacing: 4px;
+  margin-block: 10px;
+  /* font-family: 'Fira Sans', sans-serif; */
+  /* font-family: 'Dancing Script', cursive; */
+}
+
+.social-media a {
+  color: #999ab6;
+  padding-inline: 20px;
+}
+
+
+.social-media a:nth-child(2):hover {
+  color: hsl(349, 75%, 57%);
+}
+
+
+.social-media a:nth-child(3):hover {
+  color: hsl(0, 100%, 50%);
+}
+
+.social-media a:nth-child(4):hover {
+  color: hsl(203, 89%, 53%) ;
+}
+
+
+.social-media a:nth-child(5):hover {
+  color: hsl(0, 0%, 20%);
+}
+
+
+.social-media a:nth-child(6):hover {
+  color: hsl(0, 0%, 0%);
+}
+
+
+.social-media a:nth-child(7):hover {
+  color:hsl(210, 90%, 40%)
+}
+
+
+.social-media a:nth-child(8):hover {
+  color: hsl(0, 0%, 100%);
+}
+
+
+.footer hr {
+  background-color: var(--color-main);
+  color: var(--color-main);
+  margin: auto;
+  margin-block: 5px;
+  width: 80%;
+}
+
+footer {
+  display: block;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  /* font-family: 'Fira Sans', sans-serif; */
 }
