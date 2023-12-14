@@ -75,6 +75,16 @@
           <form class="form" method="post" action="">
             {% csrf_token %}
 
+             <!-- Display error messages here -->
+             {% if messages %}
+             <ul class="messages">
+                 {% for message in messages %}
+                     <li>{{ message }}</li>
+                 {% endfor %}
+             </ul>
+         {% endif %}
+           
+        <br> 
             {% for field in form %}
             <div class="form__group form__group">
               <label for="room_name">{{field.label}}</label>
@@ -111,6 +121,7 @@
     </div>
     {% endif %}
     </main>
+
 
 
 {% endblock content %}
