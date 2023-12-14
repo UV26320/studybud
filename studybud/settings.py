@@ -78,23 +78,11 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'SZISMDmZmk90XwC1c56j',
-        'HOST': 'containers-us-west-86.railway.app',
-        'PORT': '6027',
+        'PASSWORD': 'BDfCedGddbdCGBca5Cd6fg1-6a3113FE',
+        'HOST': 'roundhouse.proxy.rlwy.net',
+        'PORT': '48188',
     }
 }
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'railway',
-#         'USER': 'postgres',
-#         'PASSWORD': 'FQxRhlAg9M20dnvQ0D8L',
-#         'HOST': 'containers-us-west-163.railway.app',
-#         'PORT': '5694',
-        
-#     }
-# }
 
 
 # Password validation
