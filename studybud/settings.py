@@ -73,16 +73,16 @@ WSGI_APPLICATION = 'studybud.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': 'BDfCedGddbdCGBca5Cd6fg1-6a3113FE',
-        'HOST': 'roundhouse.proxy.rlwy.net',
-        'PORT': '48188',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'railway',
+#         'USER': 'postgres',
+#         'PASSWORD': 'BDfCedGddbdCGBca5Cd6fg1-6a3113FE',
+#         'HOST': 'roundhouse.proxy.rlwy.net',
+#         'PORT': '48188',
+#     }
+# }
 
 
 # Password validation
