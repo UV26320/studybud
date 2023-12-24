@@ -73,16 +73,16 @@ WSGI_APPLICATION = 'studybud.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': 'BDfCedGddbdCGBca5Cd6fg1-6a3113FE',
-        'HOST': 'roundhouse.proxy.rlwy.net',
-        'PORT': '48188',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'railway',
+#         'USER': 'postgres',
+#         'PASSWORD': 'BDfCedGddbdCGBca5Cd6fg1-6a3113FE',
+#         'HOST': 'roundhouse.proxy.rlwy.net',
+#         'PORT': '48188',
+#     }
+# }
 
 
 # Password validation
@@ -125,6 +125,12 @@ STATICFILES_DIRS = [
     
     BASE_DIR / 'static' 
 ]
+
+
+# STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
+
+
 
 
 MEDIA_URL = '/images/'
