@@ -1,0 +1,40 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<h1>Home templates</h1>
+
+<style>
+
+    .home-container{
+        display: flex;
+        padding: 5px;
+        margin: 5px;
+        justify-content: space-between;
+    }
+</style>
+
+
+<div class="home-container">
+
+    <div id="1st">
+         
+        {% include 'base/topics_component.html' %}
+      
+    </div>
+
+    <div id = "2nd">
+        <h5>{{room_count}} room available</h5>
+        <a href="{% url 'create-room' %}">Create Room</a>
+     
+       {% include 'base/feed_component.html' %}
+    </div>
+
+    <div id = "3rd">
+       {% include 'base/activity_component.html' %}
+    </div>    
+</div>
+
+      
+</div>
+
+{% endblock content %}
